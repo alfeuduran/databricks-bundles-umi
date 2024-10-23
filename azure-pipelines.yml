@@ -12,7 +12,7 @@ stages:
 
 - stage: umiBundleTest
   variables:
-    - group: releaseVariables
+    - group: umiVariableGroup
   jobs:
   - job: onReleaseJob
     pool:
