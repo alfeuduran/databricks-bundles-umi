@@ -16,7 +16,7 @@ stages:
   jobs:
   - job: onReleaseJob
     pool:
-      name: testGaneshMachine
+      name: umiPoolName
       demands:
         - agent.name -equals devvmalfeu
     steps:
