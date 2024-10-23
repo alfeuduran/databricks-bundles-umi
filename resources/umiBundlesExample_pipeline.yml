@@ -1,0 +1,12 @@
+# The main pipeline for umiBundlesExample
+resources:
+  pipelines:
+    umiBundlesExample_pipeline:
+      name: umiBundlesExample_pipeline
+      target: umiBundlesExample_${bundle.environment}
+      libraries:
+        - notebook:
+            path: ../src/dlt_pipeline.ipynb
+
+      configuration:
+        bundle.sourcePath: /Workspace/${workspace.file_path}/src
