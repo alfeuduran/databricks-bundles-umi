@@ -34,8 +34,8 @@ stages:
       displayName: 'Azure CLI Login with Managed Identity'
 
     - script: |
-        echo Configurando o CLI do Databricks...
-        databricks configure
+        echo Env Variables configuration...
+        
       env:
         DATABRICKS_HOST: $(DATABRICKS_HOST)
         DATABRICKS_AZURE_USE_MSI : 'true'
