@@ -38,4 +38,4 @@ targets:
     run_as:
       # This runs as alfeu.duran@databricks.com in production. We could also use a service principal here,
       # see https://docs.databricks.com/dev-tools/bundles/permissions.html.
-      user_name: 536e4b7d-6dde-419c-9272-a84a488b199f
+      user_name: alfeuidentity
