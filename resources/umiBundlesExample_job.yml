@@ -1,6 +1,4 @@
 # The main job for umiBundlesExample.
-run_as:
-  service_principal_name: 8f4989a0-85b9-4367-adad-4e657f3a1341
 resources:
   jobs:
     umiBundlesExample_job:
